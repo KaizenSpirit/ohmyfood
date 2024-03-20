@@ -1,0 +1,16 @@
+{
+  "name": "projet-3",
+  "version": "1.0.0",
+  "description": "ohmyfood: projet 3 Openclassrooms",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "node-sass -o assets/css sass/main.scss -w",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "node-sass": "^9.0.0"
+  }
+}
