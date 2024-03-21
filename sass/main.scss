@@ -1,13 +1,25 @@
+@import "loader";
+
 html {
   font-size: 62.5%;
+  margin: 0;
+  padding: 0;
 }
 
 h1 {
-  font-size: 6rem;
-  color: yellow;
+  font-size: 1.875rem;
+  color: black;
   font-family: 'Courier New', Courier, monospace;
 }
 
 body {
-  background-color: blue;
+  background-color: darkgrey;
+  margin: 0;
+  padding: 0;
+  font-size: 2rem;
+}
+
+
+img {
+  width: 40rem;
 }
