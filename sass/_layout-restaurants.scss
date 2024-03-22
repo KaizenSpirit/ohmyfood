@@ -2,6 +2,14 @@
   @include headerStyles;
   justify-content: space-between;
 
+  &:hover {
+    transform: translateX(-.5rem);
+  }
+
+  &.active {
+    @include smart-animate-arrow;
+  }
+
   .fa-arrow-left {
     color: $arrow-color;
     font-size: 2rem;
@@ -10,14 +18,6 @@
     position: relative;
     display: inline-block;
     transition: all 300ms ease-out;
-
-    &:hover {
-      transform: translateX(-.5rem);
-    }
-
-    &.active {
-      @include smart-animate-arrow;
-    }
   }
 
   @keyframes smart-animate-arrow {

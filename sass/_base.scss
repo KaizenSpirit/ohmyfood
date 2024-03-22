@@ -17,7 +17,13 @@ html {
   font-size: 62.5%;
 }
 
-h2,
+@mixin h2TitlePageIndex {
+  font-family: "Roboto";
+  font-size: 2.4rem;
+  font-weight: 700;
+  line-height: 2.813rem;
+}
+
 h3,
 h4,
 h5 {
@@ -36,7 +42,6 @@ h5 {
     font-weight: 400;
     font-size: 30px;
     line-height: 43.74px;
-    // Centrage du titre h1 même avec `justify-content: space-between;`
     margin: 0 auto;
   }
 }
