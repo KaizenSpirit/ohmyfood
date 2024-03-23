@@ -61,8 +61,8 @@ h5 {
   .header h1 {
     font-family: "Shrikhand";
     font-weight: 400;
-    font-size: 30px;
-    line-height: 43.74px;
+    font-size: 3rem;
+    line-height: 4.374rem;
     margin: 0 auto; }
 
 .booking-menu-section-form {
@@ -139,8 +139,277 @@ h5 {
       box-shadow: 0 .8rem 2rem 0 #08080840;
       opacity: .8; }
 
-img {
-  width: 30rem; }
+.menu-creation-process-section {
+  height: 44rem; }
+  .menu-creation-process-section-title {
+    font-family: "Roboto";
+    font-size: 2.4rem;
+    font-weight: 700;
+    line-height: 2.813rem;
+    margin: 4.5rem 0 0 2rem; }
+  .menu-creation-process-section .menu-creation-process-options {
+    margin-top: 3rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; }
+    .menu-creation-process-section .menu-creation-process-options-items {
+      position: relative;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-size: 1.6rem;
+      height: 7.238rem;
+      width: 84%;
+      margin-left: 2rem;
+      border-radius: 2rem;
+      box-shadow: 0px 4px 15px 0px #00000026;
+      margin-top: 2.5rem;
+      background-color: #F6F6F6; }
+    .menu-creation-process-section .menu-creation-process-options-items .fa-solid {
+      font-size: 1.99rem;
+      margin-left: -1.5rem;
+      color: #7e7e7e; }
+    .menu-creation-process-section .menu-creation-process-options-items .purple-icon {
+      color: #9356DC; }
+    .menu-creation-process-section .menu-creation-process-options-title {
+      margin-left: 2rem; }
+    .menu-creation-process-section .menu-creation-process-options-icon {
+      position: absolute;
+      left: -1.2rem;
+      z-index: 4;
+      background-color: #9356DC;
+      border-radius: 50%;
+      width: 2.4rem;
+      height: 2.4rem;
+      text-align: center;
+      padding: .4rem 0 0 0;
+      font-weight: 500;
+      font-size: 1.418rem;
+      color: white; }
+
+.restaurants-section {
+  background-color: #F6F6F6;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  margin-top: 0;
+  height: 124rem; }
+  .restaurants-section-title {
+    font-family: "Roboto";
+    font-size: 2.4rem;
+    font-weight: 700;
+    line-height: 2.813rem;
+    align-self: flex-start;
+    margin: 5rem 0 0 2rem; }
+  .restaurants-section-link {
+    width: 92%;
+    box-shadow: 0px 4px 15px 0px #0000001A;
+    margin-top: 2rem;
+    border-radius: 1.5rem;
+    text-decoration: none; }
+  .restaurants-section-card {
+    width: 100%;
+    height: 25.1rem;
+    border-radius: 1.5rem;
+    position: relative; }
+    .restaurants-section-card-figure img {
+      width: 100%;
+      height: 17.8rem;
+      border-radius: 1.5rem 1.5rem 0 0;
+      object-fit: cover;
+      object-position: 40% 60%; }
+    .restaurants-section-card-figure-details {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      height: 8rem; }
+      .restaurants-section-card-figure-details .fa-regular.fa-heart {
+        margin-top: 2rem;
+        margin-right: 2rem;
+        font-size: 2.5rem;
+        color: black; }
+    .restaurants-section-card-figure-label {
+      position: absolute;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 8rem;
+      height: 2.9rem;
+      font-size: 1.4rem;
+      background-color: #99E2D0;
+      color: #008766;
+      top: 1.5rem;
+      right: 1.5rem;
+      border-radius: .2rem;
+      box-shadow: 0 .2rem .4rem 0 #00000026; }
+    .restaurants-section-card-figure-txts {
+      display: flex;
+      flex-direction: column; }
+      .restaurants-section-card-figure-txts-title {
+        font-family: Roboto;
+        font-size: 18px;
+        line-height: 21.09px;
+        color: #000000;
+        margin: 0.9rem 0 0 1.2rem; }
+      .restaurants-section-card-figure-txts-neighborhood {
+        font-family: Robot;
+        font-size: 2rem;
+        line-height: 1.992rem;
+        margin: 0.9rem 0 0 1.2rem;
+        color: #000000; }
+    .restaurants-section-card .img-portrait-note-enchantee {
+      object-position: 40% 60%; }
+
+.footer {
+  height: 18.6rem;
+  width: 100%;
+  background-color: #353535; }
+  .footer-title {
+    font-family: "Shrikhand";
+    font-size: 1.8rem;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 2.624rem;
+    color: #FFF;
+    padding: 1.7rem 0 0 2rem; }
+  .footer-nav {
+    height: 9.9rem;
+    margin-top: 2rem;
+    padding-left: 2rem;
+    list-style: none; }
+    .footer-nav-item {
+      list-style: none;
+      margin-top: 0.8rem; }
+    .footer-nav-logo {
+      font-size: 1.3rem;
+      color: #FFF;
+      margin-right: 0.5rem; }
+    .footer-nav-link {
+      font-family: Roboto;
+      font-size: 1.6rem;
+      line-height: 1.875rem;
+      color: #FFF;
+      text-decoration: none;
+      font-weight: 400; }
+      .footer-nav-link-less {
+        font-family: Roboto;
+        font-size: 1.6rem;
+        line-height: 1.875rem;
+        color: #FFF;
+        text-decoration: none;
+        font-weight: 200; }
+
+@media (min-width: 768px) {
+  body {
+    margin: auto;
+    max-width: 144rem; } }
+
+@media (min-width: 1024px) {
+  .header {
+    height: 9.6rem;
+    font-size: 3.4rem; }
+    .header h1 {
+      font-size: 3.42rem; }
+  .booking-menu-section aside {
+    height: 25rem; }
+    .booking-menu-section aside h2 {
+      font-size: 4rem;
+      margin: 1rem 0 2rem 0; }
+    .booking-menu-section aside button {
+      margin: 0 0 0 0; }
+      .booking-menu-section aside button:hover {
+        cursor: pointer;
+        box-shadow: 0 .8rem 2rem 0 #08080840;
+        opacity: .8; }
+  .menu-creation-process-section {
+    height: 22.8rem; }
+    .menu-creation-process-section-title {
+      padding: 5.5rem 0 0 14rem;
+      margin: 0; }
+    .menu-creation-process-section .menu-creation-process-options {
+      margin-top: 4rem;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+      width: 80%;
+      margin: 2.5rem auto; }
+      .menu-creation-process-section .menu-creation-process-options-items {
+        width: 60%;
+        margin: 0 1.5rem; }
+      .menu-creation-process-section .menu-creation-process-options-items .fa-solid {
+        margin-left: 2.5rem; }
+      .menu-creation-process-section .menu-creation-process-options-title {
+        margin-left: 1rem; }
+  .restaurants-section {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    gap: 5rem;
+    width: 100%;
+    margin-top: 0;
+    height: 65.8rem;
+    justify-content: center;
+    align-items: center;
+    padding: 0 5rem 0 12rem; }
+    .restaurants-section-title {
+      grid-area: 1 / 1 / 2 / 3; }
+    .restaurants-section-link {
+      width: 90%;
+      margin: 0; }
+    .restaurants-section-card {
+      width: 100%;
+      height: 23.1rem;
+      border-radius: 1.5rem;
+      position: relative;
+      margin-top: -1rem; }
+      .restaurants-section-card-figure img {
+        width: 100%;
+        height: 15.8rem;
+        border-radius: 1.5rem 1.5rem 0 0;
+        object-fit: cover;
+        object-position: 40% 60%; }
+      .restaurants-section-card .img-portrait-note-enchantee {
+        object-position: 40% 60%; }
+  .footer {
+    height: 11.4rem;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-start;
+    align-items: flex-end; }
+    .footer-title {
+      padding: 1.7rem 0 0 2rem;
+      margin: 0 8rem 3rem 0; }
+    .footer-nav {
+      height: 9.9rem;
+      display: flex;
+      align-items: flex-end; }
+      .footer-nav-list {
+        display: flex;
+        flex-direction: row;
+        margin: 0 2rem 3rem 0; }
+      .footer-nav-item {
+        list-style: none;
+        margin: 0 1rem; }
+      .footer-nav-logo {
+        font-size: 1.3rem;
+        color: #FFF;
+        margin-right: 0.5rem; }
+      .footer-nav-link {
+        font-family: Roboto;
+        font-size: 1.6rem;
+        line-height: 1.875rem;
+        color: #FFF;
+        text-decoration: none;
+        font-weight: 400; }
+        .footer-nav-link-less {
+          font-family: Roboto;
+          font-size: 1.6rem;
+          line-height: 1.875rem;
+          color: #FFF;
+          text-decoration: none;
+          font-weight: 200; } }
 
 .header-restaurant-page {
   display: flex;
@@ -152,13 +421,9 @@ img {
   .header-restaurant-page h1 {
     font-family: "Shrikhand";
     font-weight: 400;
-    font-size: 30px;
-    line-height: 43.74px;
+    font-size: 3rem;
+    line-height: 4.374rem;
     margin: 0 auto; }
-  .header-restaurant-page:hover {
-    transform: translateX(-0.5rem); }
-  .header-restaurant-page.active {
-    animation: smart-animate 300ms ease-out; }
   .header-restaurant-page .fa-arrow-left {
     color: #353535;
     font-size: 2rem;
@@ -167,6 +432,10 @@ img {
     position: relative;
     display: inline-block;
     transition: all 300ms ease-out; }
+    .header-restaurant-page .fa-arrow-left:hover {
+      transform: translateX(-0.5rem); }
+    .header-restaurant-page .fa-arrow-left.active {
+      animation: smart-animate 300ms ease-out; }
 
 @keyframes smart-animate-arrow {
   from {
