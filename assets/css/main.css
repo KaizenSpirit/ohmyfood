@@ -249,8 +249,8 @@ h5 {
       flex-direction: column; }
       .restaurants-section-card-figure-txts-title {
         font-family: Roboto;
-        font-size: 18px;
-        line-height: 21.09px;
+        font-size: 1.8rem;
+        line-height: 2.109rem;
         color: #000000;
         margin: 0.9rem 0 0 1.2rem; }
       .restaurants-section-card-figure-txts-neighborhood {
@@ -444,3 +444,98 @@ h5 {
   to {
     opacity: 1;
     transform: scale(1); } }
+
+picture img {
+  position: relative;
+  width: 100%;
+  min-height: 28rem; }
+
+.menu-creation {
+  background-color: #F6F6F6;
+  height: 135.6rem;
+  width: 100%;
+  padding-top: 3.5rem; }
+  .menu-creation-titles {
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 4rem;
+    width: 100%;
+    top: 35vh;
+    background-color: #F6F6F6;
+    margin-top: -1rem;
+    height: 8rem; }
+    .menu-creation-titles-title {
+      font-family: Shrikhand;
+      font-size: 2.8rem;
+      font-style: italic;
+      font-weight: 400;
+      line-height: 4.082rem;
+      margin: 1.5rem; }
+    .menu-creation-titles .fa-regular.fa-heart {
+      margin-top: 2rem;
+      margin-right: 2rem;
+      font-size: 2.5rem;
+      color: black; }
+  .menu-creation-items {
+    display: flex;
+    flex-direction: column;
+    height: 27rem;
+    width: 100%;
+    justify-content: center;
+    align-items: center; }
+    .menu-creation-items-composition {
+      font-family: Roboto;
+      font-size: 16px;
+      font-weight: 300;
+      line-height: 18.75px; }
+    .menu-creation-items-list {
+      width: 90%;
+      border: 1px solid black; }
+      .menu-creation-items-list-item {
+        margin-top: 1rem;
+        width: 100%;
+        border: 1px solid black;
+        height: 6.9rem; }
+        .menu-creation-items-list-item-title {
+          font-family: Roboto;
+          font-size: 1.8rem;
+          line-height: 2.109rem;
+          color: #000000; }
+
+@media (max-width: 768px) {
+  img {
+    max-height: 27.5rem;
+    width: 100%;
+    height: 50%;
+    object-fit: cover; } }
+
+@media (min-width: 768px) {
+  img {
+    max-height: 383px;
+    width: 100%;
+    height: 50%;
+    object-fit: cover; }
+  .menu-creation {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+    width: 100%;
+    max-width: 105.5rem;
+    height: 122.1rem;
+    background-color: #F6F6F6; }
+    .menu-creation-titles {
+      width: 100%;
+      position: absolute;
+      display: flex;
+      justify-content: center;
+      max-width: 105.5rem;
+      height: 20rem;
+      background-color: #F6F6F6;
+      border-radius: 4rem;
+      top: 40rem;
+      margin-bottom: 10rem; }
+      .menu-creation-titles .fa-regular.fa-heart {
+        margin-left: 2rem; } }

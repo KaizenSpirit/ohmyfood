@@ -203,10 +203,7 @@
         height: 8rem;
 
         .fa-regular.fa-heart {
-          margin-top: 2rem;
-          margin-right: 2rem;
-          font-size: 2.5rem;
-          color: black;
+          @include heart-icon;
         }
 
       }
@@ -232,7 +229,7 @@
         flex-direction: column;
 
         &-title {
-          @include h3AllPages;
+          @include h4AllPages;
           margin: 0.9rem 0 0 1.2rem;
         }
 
