@@ -46,7 +46,7 @@ picture {
 
 .menu-creation {
   background-color: $grey-background ;
-  height: 107rem;
+  height: 113rem;
   width: 100%;
   padding-top: 3.5rem;
   display: flex;
@@ -83,6 +83,7 @@ picture {
     width: 100%;
     justify-content: center;
     align-items: center;
+    margin-top: 1.5rem;
 
     &-composition {
       font-family: Roboto;
