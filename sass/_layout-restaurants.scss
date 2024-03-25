@@ -42,11 +42,16 @@ picture {
   }
 }
 
+
+
 .menu-creation {
   background-color: $grey-background ;
-  height: 135.6rem;
+  height: 107rem;
   width: 100%;
   padding-top: 3.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 4rem;
 
   &-titles {
     position: absolute;
@@ -61,17 +66,19 @@ picture {
 
     &-title {
       @include h2TitlePageRestaurants;
-      margin: 1.5rem;
+      margin: 4rem 0 2rem 1rem;
     }
 
     .fa-regular.fa-heart {
       @include heart-icon;
+      margin: 4.5rem 3rem 0 0;
     }
   }
 
   &-items {
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
     height: 27rem;
     width: 100%;
     justify-content: center;
@@ -82,36 +89,73 @@ picture {
       font-size: 16px;
       font-weight: 300;
       line-height: 18.75px;
+      margin: 4rem 0 1rem 2rem;
+      align-self: flex-start;
+      border-bottom: 2px solid $tertiary-color;
+      padding-bottom: .3rem;
     }
 
     &-list {
-      width: 90%;
-      border: 1px solid black;
+      width: 92%;
+      list-style: none;
 
       &-item {
-        margin-top: 1rem;
+        margin-top: .5rem;
         width: 100%;
-        border: 1px solid black;
+        background-color: $color-white;
+        box-shadow: 0 4.011494159698486rem 15.043103218078613rem 0 #0000001A;
         height: 6.9rem;
+        margin-bottom: 1.3rem;
+        border-radius: 1.504rem;
+
+        padding: 1rem;
 
         &-title {
           @include h4AllPages;
+          margin-bottom: .7rem;
+        }
+
+        &-title-text {
+          display: flex;
+          justify-content: space-between;
+
+          &-description {
+            font-family: Roboto;
+            font-size: 15.04px;
+            font-weight: 300;
+            line-height: 17.63px;
+            text-align: left;
+
+          }
+
+          &-price {
+            font-family: Roboto;
+            font-size: 15.04px;
+            font-weight: 700;
+            line-height: 17.63px;
+            text-align: center;
+          }
         }
       }
-
     }
   }
 
+  button {
+    @include buttonPages;
+    margin: 2rem auto;
+    margin-top: 1.5rem;
+    width: 18.6rem;
+    font-size: 1.6rem;
+  }
 }
 
+.enchantee-one-more-item {
+  height: 120rem;
 
-
-
-
-
-
-
-
+  &-entree {
+    margin: 5rem 0 4rem 0;
+  }
+}
 
 
 
@@ -134,15 +178,9 @@ picture {
   }
 
   .menu-creation {
-
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    align-items: center;
     margin: 0 auto;
     width: 100%;
     max-width: 105.5rem;
-    height: 122.1rem;
     background-color: $grey-background ;
 
     &-titles {
@@ -151,15 +189,89 @@ picture {
       display: flex;
       justify-content: center;
       max-width: 105.5rem;
-      height: 20rem;
-      background-color: $grey-background;
+      height: 10rem;
       border-radius: 4rem;
       top: 40rem;
-      margin-bottom: 10rem;
 
       .fa-regular.fa-heart {
         margin-left: 2rem;
       }
+    }
+
+
+    &-items {
+      width: 70%;
+      margin: auto;
+
+      &-composition {
+        font-family: Roboto;
+        font-size: 16px;
+        font-weight: 300;
+        line-height: 18.75px;
+        margin: 4rem 0 1rem 3.5rem;
+        align-self: flex-start;
+        border-bottom: 2px solid $tertiary-color;
+        padding-bottom: .3rem;
+      }
+
+      &-list {
+        width: 92%;
+        list-style: none;
+
+        &-item {
+          margin-top: .5rem;
+          width: 100%;
+          background-color: $color-white;
+          box-shadow: 0 4.011494159698486rem 15.043103218078613rem 0 #0000001A;
+          height: 6.9rem;
+          margin-bottom: 1.3rem;
+          border-radius: 1.504rem;
+
+          padding: 1rem;
+
+          &-title {
+            @include h4AllPages;
+            margin-bottom: .7rem;
+          }
+
+          &-title-text {
+            display: flex;
+            justify-content: space-between;
+
+            &-description {
+              font-family: Roboto;
+              font-size: 15.04px;
+              font-weight: 300;
+              line-height: 17.63px;
+              text-align: left;
+
+            }
+
+            &-price {
+              font-family: Roboto;
+              font-size: 15.04px;
+              font-weight: 700;
+              line-height: 17.63px;
+              text-align: center;
+            }
+          }
+        }
+      }
+    }
+
+    button {
+      @include buttonPages;
+      width: 18.6rem;
+      font-size: 1.6rem;
+      margin: 1rem auto 4rem auto;
+    }
+  }
+
+  .enchantee-one-more-item {
+    height: 120rem;
+
+    &-entree {
+      margin-top: 5rem;
     }
   }
 
