@@ -92,13 +92,20 @@ picture {
       line-height: 18.75px;
       margin: 4rem 0 1rem 2rem;
       align-self: flex-start;
-      border-bottom: 2px solid $tertiary-color;
-      padding-bottom: .3rem;
+
+      &::before {
+        content: "";
+        position: absolute;
+        width: 3.8rem;
+        padding-bottom: 2.3rem;
+        border-bottom: 3px solid #99e2d0;
+      }
     }
 
     &-list {
       width: 92%;
       list-style: none;
+      display: block;
 
       &-item {
         margin-top: .5rem;
@@ -108,7 +115,6 @@ picture {
         height: 6.9rem;
         margin-bottom: 1.3rem;
         border-radius: 1.504rem;
-
         padding: 1rem;
 
         &-title {
@@ -126,7 +132,6 @@ picture {
             font-weight: 300;
             line-height: 17.63px;
             text-align: left;
-
           }
 
           &-price {
@@ -186,12 +191,10 @@ picture {
 
     &-titles {
       width: 100%;
-      position: absolute;
       display: flex;
       justify-content: center;
       max-width: 105.5rem;
       height: 10rem;
-      border-radius: 4rem;
       top: 40rem;
 
       .fa-regular.fa-heart {
@@ -199,70 +202,23 @@ picture {
       }
     }
 
-
     &-items {
       width: 70%;
       margin: auto;
 
       &-composition {
-        font-family: Roboto;
-        font-size: 16px;
-        font-weight: 300;
-        line-height: 18.75px;
-        margin: 4rem 0 1rem 3.5rem;
-        align-self: flex-start;
-        border-bottom: 2px solid $tertiary-color;
         padding-bottom: .3rem;
+        margin-left: 3rem;
       }
 
       &-list {
         width: 92%;
         list-style: none;
 
-        &-item {
-          margin-top: .5rem;
-          width: 100%;
-          background-color: $color-white;
-          box-shadow: 0 4.011494159698486rem 15.043103218078613rem 0 #0000001A;
-          height: 6.9rem;
-          margin-bottom: 1.3rem;
-          border-radius: 1.504rem;
-
-          padding: 1rem;
-
-          &-title {
-            @include h4AllPages;
-            margin-bottom: .7rem;
-          }
-
-          &-title-text {
-            display: flex;
-            justify-content: space-between;
-
-            &-description {
-              font-family: Roboto;
-              font-size: 15.04px;
-              font-weight: 300;
-              line-height: 17.63px;
-              text-align: left;
-
-            }
-
-            &-price {
-              font-family: Roboto;
-              font-size: 15.04px;
-              font-weight: 700;
-              line-height: 17.63px;
-              text-align: center;
-            }
-          }
-        }
       }
     }
 
     button {
-      @include buttonPages;
-      width: 18.6rem;
       font-size: 1.6rem;
       margin: 1rem auto 4rem auto;
     }
