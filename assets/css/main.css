@@ -383,20 +383,20 @@ h5 {
       .footer-nav-item {
         margin: 0 1rem; } }
 
-.header-restaurant-page {
+.header {
   display: flex;
   width: 100%;
   height: 6.3rem;
   background-color: #FFF;
   align-items: center;
   justify-content: space-between; }
-  .header-restaurant-page h1 {
+  .header h1 {
     font-family: "Shrikhand";
     font-weight: 400;
     font-size: 3rem;
     line-height: 4.374rem;
     margin: 0 auto; }
-  .header-restaurant-page .fa-arrow-left {
+  .header .fa-arrow-left {
     color: #353535;
     font-size: 2rem;
     margin-left: 2rem;
@@ -404,9 +404,9 @@ h5 {
     position: relative;
     display: inline-block;
     transition: all 300ms ease-out; }
-    .header-restaurant-page .fa-arrow-left:hover {
+    .header .fa-arrow-left:hover {
       transform: translateX(-0.5rem); }
-    .header-restaurant-page .fa-arrow-left.active {
+    .header .fa-arrow-left.active {
       animation: smart-animate 300ms ease-out; }
 
 @keyframes smart-animate-arrow {
