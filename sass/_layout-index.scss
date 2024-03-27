@@ -75,10 +75,16 @@
       line-height: 2.109rem;
     }
 
-    button {
+    a {
       @include buttonPages;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin: 2rem auto;
       margin-top: 1.5rem;
+      font-size: 1.7rem;
       width: 21.8rem;
+
     }
   }
 }
