@@ -228,20 +228,32 @@ h5 {
       justify-content: space-between;
       height: 8rem; }
       .restaurants-section-card-figure-details .button-link-heart {
+        position: relative;
         border: none;
         background: transparent;
         margin: 2rem 2rem 0 0;
         height: 3rem;
         width: 3rem; }
-        .restaurants-section-card-figure-details .button-link-heart .fa-regular.fa-heart {
-          font-size: 2.5rem;
-          color: black;
-          transition: all 0.5s; }
-          .restaurants-section-card-figure-details .button-link-heart .fa-regular.fa-heart:hover {
-            cursor: pointer;
-            font-weight: 800;
-            color: blueviolet;
-            font-size: 3rem; }
+      .restaurants-section-card-figure-details .button-link-heart i {
+        position: absolute;
+        top: 0;
+        left: 0;
+        font-size: 2.5rem;
+        color: black; }
+      .restaurants-section-card-figure-details .button-link-heart .fa-solid.fa-heart {
+        color: transparent;
+        cursor: pointer;
+        font-size: 3rem;
+        top: -2px;
+        left: -2px; }
+      .restaurants-section-card-figure-details .button-link-heart:hover .fa-solid.fa-heart {
+        background: linear-gradient(193deg, #9356DC -11.44%, #FF79DA 123.93%);
+        background-clip: text;
+        -webkit-text-fill-color: transparent; }
+      .restaurants-section-card-figure-details .button-link-heart:active .fa-solid.fa-heart {
+        font-size: 2.5rem;
+        top: 0;
+        left: 0; }
     .restaurants-section-card-figure-label {
       position: absolute;
       display: flex;
