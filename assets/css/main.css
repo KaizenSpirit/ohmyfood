@@ -515,6 +515,8 @@ picture img {
             font-weight: 700;
             line-height: 17.63px;
             text-align: center; }
+            .menu-creation-items-list-item-title-text-price input[type="checkbox"] {
+              display: none; }
   .menu-creation button {
     height: 5rem;
     border-radius: 2.5rem;

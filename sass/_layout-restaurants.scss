@@ -140,6 +140,10 @@ picture {
             font-weight: 700;
             line-height: 17.63px;
             text-align: center;
+
+            input[type="checkbox"] {
+              display: none;
+            }
           }
         }
       }
