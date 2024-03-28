@@ -138,7 +138,8 @@ h5 {
     margin: 2rem auto;
     margin-top: 1.5rem;
     font-size: 1.7rem;
-    width: 21.8rem; }
+    width: 21.8rem;
+    text-decoration: none; }
     .booking-menu-section aside a:hover {
       cursor: pointer;
       box-shadow: 0 .8rem 2rem 0 #08080840;
@@ -261,7 +262,8 @@ h5 {
         font-size: 2rem;
         line-height: 1.992rem;
         margin: 0.9rem 0 0 1.2rem;
-        color: #000000; }
+        color: #000000;
+        font-weight: 300; }
     .restaurants-section-card .img-portrait-note-enchantee {
       object-position: 40% 60%; }
 
