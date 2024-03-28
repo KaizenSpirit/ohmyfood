@@ -198,9 +198,13 @@
 
           .fa-regular.fa-heart {
             @include heart-icon;
+            transition: all 0.5s;
 
             &:hover {
               cursor: pointer;
+              font-weight: 800;
+              color: blueviolet;
+              font-size: 3rem;
             }
           }
         }
