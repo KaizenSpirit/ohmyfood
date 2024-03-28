@@ -227,13 +227,17 @@ h5 {
       flex-direction: row;
       justify-content: space-between;
       height: 8rem; }
-      .restaurants-section-card-figure-details .fa-regular.fa-heart {
-        margin-top: 2rem;
-        margin-right: 2rem;
-        font-size: 2.5rem;
-        color: black; }
-        .restaurants-section-card-figure-details .fa-regular.fa-heart:hover {
-          cursor: pointer; }
+      .restaurants-section-card-figure-details .button-link-heart {
+        border: none;
+        background: transparent;
+        margin: 2rem 2rem 0 0;
+        height: 3rem;
+        width: 3rem; }
+        .restaurants-section-card-figure-details .button-link-heart .fa-regular.fa-heart {
+          font-size: 2.5rem;
+          color: black; }
+          .restaurants-section-card-figure-details .button-link-heart .fa-regular.fa-heart:hover {
+            cursor: pointer; }
     .restaurants-section-card-figure-label {
       position: absolute;
       display: flex;
@@ -322,9 +326,9 @@ h5 {
     .booking-menu-section aside h2 {
       font-size: 4rem;
       margin: 1rem 0 2rem 0; }
-    .booking-menu-section aside button {
+    .booking-menu-section aside a {
       margin: 0 0 0 0; }
-      .booking-menu-section aside button:hover {
+      .booking-menu-section aside a:hover {
         cursor: pointer;
         box-shadow: 0 .8rem 2rem 0 #08080840;
         opacity: .8; }
@@ -454,8 +458,6 @@ picture img {
       line-height: 4.082rem;
       margin: 4rem 0 2rem 1rem; }
     .menu-creation-titles .fa-regular.fa-heart {
-      margin-top: 2rem;
-      margin-right: 2rem;
       font-size: 2.5rem;
       color: black;
       margin: 4.5rem 3rem 0 0; }

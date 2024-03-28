@@ -189,11 +189,19 @@
         justify-content: space-between;
         height: 8rem;
 
-        .fa-regular.fa-heart {
-          @include heart-icon;
+        .button-link-heart {
+          border: none;
+          background: transparent;
+          margin: 2rem 2rem 0 0;
+          height: 3rem;
+          width: 3rem;
 
-          &:hover {
-            cursor: pointer;
+          .fa-regular.fa-heart {
+            @include heart-icon;
+
+            &:hover {
+              cursor: pointer;
+            }
           }
         }
 
@@ -315,7 +323,7 @@
         margin: 1rem 0 2rem 0;
       }
 
-      button {
+      a {
         margin: 0 0 0 0;
 
         &:hover {
