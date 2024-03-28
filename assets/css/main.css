@@ -533,13 +533,36 @@ picture img {
         height: 6.9rem;
         margin-bottom: 1.3rem;
         border-radius: 1.504rem;
-        padding: 1rem; }
+        padding: 1rem;
+        cursor: pointer;
+        transition: .5s;
+        position: relative; }
+        .menu-creation-items-list-item::after {
+          content: "";
+          position: absolute;
+          top: 0;
+          right: 0;
+          /* Start from the left edge */
+          width: 0;
+          height: 100%;
+          background-color: #99E2D0;
+          transition: width 0.5s;
+          z-index: 100;
+          border-radius: 0 1.5rem 1.5rem 0; }
+        .menu-creation-items-list-item:hover {
+          padding-right: 7rem; }
+          .menu-creation-items-list-item:hover::after {
+            width: 6rem;
+            white-space: nowrap; }
         .menu-creation-items-list-item-title {
           font-family: Roboto;
           font-size: 1.8rem;
           line-height: 2.109rem;
           color: #000000;
-          margin-bottom: .7rem; }
+          margin-bottom: .7rem;
+          text-overflow: ellipsis;
+          white-space: nowrap;
+          overflow: hidden; }
         .menu-creation-items-list-item-title-text {
           display: flex;
           justify-content: space-between; }
@@ -548,7 +571,10 @@ picture img {
             font-size: 15.04px;
             font-weight: 300;
             line-height: 17.63px;
-            text-align: left; }
+            text-align: left;
+            text-overflow: ellipsis;
+            white-space: nowrap;
+            overflow: hidden; }
           .menu-creation-items-list-item-title-text-price {
             font-family: Roboto;
             font-size: 15.04px;

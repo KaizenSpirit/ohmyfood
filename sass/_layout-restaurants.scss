@@ -123,10 +123,42 @@ picture {
         margin-bottom: 1.3rem;
         border-radius: 1.504rem;
         padding: 1rem;
+        cursor: pointer;
+        transition: .5s;
+        position: relative;
+
+        &::after {
+          content: "";
+          position: absolute;
+          top: 0;
+          right: 0;
+          /* Start from the left edge */
+          width: 0;
+          height: 100%;
+          background-color: $tertiary-color;
+          transition: width 0.5s;
+          z-index: 100;
+          border-radius: 0 1.5rem 1.5rem 0;
+        }
+
+
+        &:hover {
+          padding-right: 7rem;
+
+          &::after {
+            width: 6rem;
+
+            white-space: nowrap;
+          }
+
+        }
 
         &-title {
           @include h4AllPages;
           margin-bottom: .7rem;
+          text-overflow: ellipsis;
+          white-space: nowrap;
+          overflow: hidden;
         }
 
         &-title-text {
@@ -139,6 +171,9 @@ picture {
             font-weight: 300;
             line-height: 17.63px;
             text-align: left;
+            text-overflow: ellipsis;
+            white-space: nowrap;
+            overflow: hidden;
           }
 
           &-price {
