@@ -69,10 +69,17 @@ picture {
       margin: 4rem 0 2rem 1rem;
     }
 
-    .fa-regular.fa-heart {
-      @include heart-icon;
-      margin: 4.5rem 3rem 0 0;
+    .button-link-heart {
+      position: relative;
+      border: none;
+      background: transparent;
+      margin: 4.5rem 2rem 0 0;
+      height: 3rem;
+      width: 3rem;
     }
+
+    @include heart-icon;
+
   }
 
   &-items {
@@ -150,7 +157,7 @@ picture {
     }
   }
 
-  button {
+  .order-button {
     @include buttonPages;
     margin: 2rem auto;
     margin-top: 1.5rem;
@@ -201,9 +208,15 @@ picture {
       height: 10rem;
       top: 40rem;
 
-      .fa-regular.fa-heart {
-        margin-left: 2rem;
+      .button-link-heart {
+        position: relative;
+        border: none;
+        background: transparent;
+        margin: 4.5rem 2rem 0 2rem;
+        height: 3rem;
+        width: 3rem;
       }
+
     }
 
     &-items {
@@ -222,7 +235,7 @@ picture {
       }
     }
 
-    button {
+    .order-button {
       font-size: 1.6rem;
       margin: 1rem auto 4rem auto;
     }

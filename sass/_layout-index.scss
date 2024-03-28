@@ -189,71 +189,16 @@
         justify-content: space-between;
         height: 8rem;
 
-        // .button-link-heart {
-        //   position: relative;
-        //   border: none;
-        //   background: transparent;
-        //   margin: 2rem 2rem 0 0;
-        //   height: 3rem;
-        //   width: 3rem;
-        // }
-
-        // .button-link-heart .fa-solid.fa-heart .fa-regular.fa-heart {
-        //   position: absolute;
-        //   @include heart-icon;
-        //   /* Create heart shape */
-        //   transition: all 0.5s;
-        // }
-
-        // .fa-solid.fa-heart .fa-regular.fa-heart {
-        //   position: absolute;
-        //   top: 3px;
-        // }
-
-        // .button-link-heart .fa-solid.fa-heart:hover {
-        //   cursor: pointer;
-        //   background: $btn-gradient;
-        //   background-clip: text;
-        //   -webkit-text-fill-color: transparent;
-        //   background-clip: text;
-        // }
-
         .button-link-heart {
           position: relative;
           border: none;
           background: transparent;
           margin: 2rem 2rem 0 0;
-          height: 3rem;
           width: 3rem;
+
         }
 
-        .button-link-heart i {
-          position: absolute;
-          top: 0;
-          left: 0;
-          @include heart-icon;
-        }
-
-        .button-link-heart .fa-solid.fa-heart {
-          color: transparent;
-          cursor: pointer;
-          font-size: 3rem;
-          top: -2px;
-          left: -2px;
-        }
-
-        .button-link-heart:hover .fa-solid.fa-heart {
-          background: $btn-gradient;
-          background-clip: text;
-          -webkit-text-fill-color: transparent;
-        }
-
-        .button-link-heart:active .fa-solid.fa-heart {
-          font-size: 2.5rem;
-          top: 0;
-          left: 0;
-        }
-
+        @include heart-icon;
       }
 
       &-label {

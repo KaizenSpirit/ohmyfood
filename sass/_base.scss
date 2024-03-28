@@ -41,8 +41,34 @@ html {
 }
 
 @mixin heart-icon {
-  font-size: 2.5rem;
-  color: black;
+
+  .button-link-heart i {
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-size: 2.5rem;
+    color: black;
+  }
+
+  .button-link-heart .fa-solid.fa-heart {
+    color: transparent;
+    cursor: pointer;
+    font-size: 3rem;
+    top: -2px;
+    left: -2px;
+  }
+
+  .button-link-heart:hover .fa-solid.fa-heart {
+    background: $btn-gradient;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+  .button-link-heart:active .fa-solid.fa-heart {
+    font-size: 2.5rem;
+    top: 0;
+    left: 0;
+  }
 }
 
 h3,
