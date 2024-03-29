@@ -157,25 +157,27 @@ picture {
         border-radius: 1.504rem;
         padding: 1rem;
         cursor: pointer;
-        transition: .5s;
+        transition: .4s;
         position: relative;
-        overflow: hidden;
-
+        background-image: url('../images/restaurants/encoche.jpg');
+        background-position: 132%;
+        background-repeat: no-repeat;
 
         &::after {
-          content: url("/assets/images/restaurants/encoche.png");
+          content: "";
           position: absolute;
           top: 0;
           right: 0;
           width: 0;
           background-color: $tertiary-color;
-          transition: width 0.5s;
+          transition: width 0.1s;
           border-radius: 0 1.5rem 1.5rem 0;
         }
 
 
         &:hover {
           padding-right: 7rem;
+          background-position: right;
 
           &::after {
             width: 6rem;

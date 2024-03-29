@@ -579,20 +579,23 @@ picture img {
         border-radius: 1.504rem;
         padding: 1rem;
         cursor: pointer;
-        transition: .5s;
+        transition: .4s;
         position: relative;
-        overflow: hidden; }
+        background-image: url("../images/restaurants/encoche.jpg");
+        background-position: 132%;
+        background-repeat: no-repeat; }
         .menu-creation-items-list-item::after {
-          content: url("/assets/images/restaurants/encoche.png");
+          content: "";
           position: absolute;
           top: 0;
           right: 0;
           width: 0;
           background-color: #99E2D0;
-          transition: width 0.5s;
+          transition: width 0.1s;
           border-radius: 0 1.5rem 1.5rem 0; }
         .menu-creation-items-list-item:hover {
-          padding-right: 7rem; }
+          padding-right: 7rem;
+          background-position: right; }
           .menu-creation-items-list-item:hover::after {
             width: 6rem;
             white-space: nowrap; }
