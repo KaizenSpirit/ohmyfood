@@ -159,21 +159,17 @@ picture {
         cursor: pointer;
         transition: .5s;
         position: relative;
-
-
-
+        overflow: hidden;
 
 
         &::after {
-          content: "";
+          content: url("/assets/images/restaurants/encoche.png");
           position: absolute;
           top: 0;
           right: 0;
           width: 0;
-          height: 100%;
           background-color: $tertiary-color;
           transition: width 0.5s;
-          z-index: 100;
           border-radius: 0 1.5rem 1.5rem 0;
         }
 
@@ -183,7 +179,6 @@ picture {
 
           &::after {
             width: 6rem;
-
             white-space: nowrap;
           }
 

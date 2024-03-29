@@ -580,17 +580,16 @@ picture img {
         padding: 1rem;
         cursor: pointer;
         transition: .5s;
-        position: relative; }
+        position: relative;
+        overflow: hidden; }
         .menu-creation-items-list-item::after {
-          content: "";
+          content: url("/assets/images/restaurants/encoche.png");
           position: absolute;
           top: 0;
           right: 0;
           width: 0;
-          height: 100%;
           background-color: #99E2D0;
           transition: width 0.5s;
-          z-index: 100;
           border-radius: 0 1.5rem 1.5rem 0; }
         .menu-creation-items-list-item:hover {
           padding-right: 7rem; }
