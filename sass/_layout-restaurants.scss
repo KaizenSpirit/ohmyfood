@@ -114,6 +114,46 @@ picture {
       list-style: none;
       display: block;
 
+      .impair {
+        animation-name: impair-anim;
+        animation-duration: 3s;
+        animation-delay: 1s;
+      }
+
+      .pair {
+        animation-name: pair-anim;
+        animation-duration: 3s;
+        animation-delay: 1s;
+      }
+
+      @keyframes impair-anim {
+        0% {
+          transform: translateX(100rem);
+        }
+
+        80% {
+          transform: translateX(-10rem);
+        }
+
+        100% {
+          transform: translate(0);
+        }
+      }
+
+      @keyframes pair-anim {
+        0% {
+          transform: translateX(-100rem);
+        }
+
+        80% {
+          transform: translateX(10rem);
+        }
+
+        100% {
+          transform: translate(0);
+        }
+      }
+
       &-item {
         margin-top: .5rem;
         width: 100%;
@@ -127,12 +167,15 @@ picture {
         transition: .5s;
         position: relative;
 
+
+
+
+
         &::after {
           content: "";
           position: absolute;
           top: 0;
           right: 0;
-          /* Start from the left edge */
           width: 0;
           height: 100%;
           background-color: $tertiary-color;
