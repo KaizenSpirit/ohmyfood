@@ -40,31 +40,24 @@ html {
   line-height: 4.082rem;
 }
 
-@mixin heart-icon {
+@mixin button-heart-content {
+  border: none;
+  background: transparent;
+  width: 3rem;
+  height: 2.5rem;
+  font-size: 2.5rem;
+  color: black;
 
-  .button-link-heart i {
-    position: absolute;
-    top: 0;
-    left: 0;
-    font-size: 2.5rem;
-    color: black;
-  }
-
-  .button-link-heart .fa-solid.fa-heart {
+  .fa-regular:hover {
+    background: $btn-gradient;
     color: transparent;
+    background-clip: text;
+    font-weight: 900;
     cursor: pointer;
     font-size: 3rem;
-    top: -2px;
-    left: -2px;
   }
 
-  .button-link-heart:hover .fa-solid.fa-heart {
-    background: $btn-gradient;
-    background-clip: text;
-    -webkit-text-fill-color: transparent;
-  }
-
-  .button-link-heart:active .fa-solid.fa-heart {
+  .fa-regular.fa-heart:active {
     font-size: 2.5rem;
     top: 0;
     left: 0;

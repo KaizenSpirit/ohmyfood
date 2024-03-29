@@ -70,16 +70,9 @@ picture {
     }
 
     .button-link-heart {
-      position: relative;
-      border: none;
-      background: transparent;
       margin: 4.5rem 2rem 0 0;
-      height: 3rem;
-      width: 3rem;
+      @include button-heart-content;
     }
-
-    @include heart-icon;
-
   }
 
   &-items {

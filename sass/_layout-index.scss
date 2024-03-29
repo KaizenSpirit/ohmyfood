@@ -190,15 +190,9 @@
         height: 8rem;
 
         .button-link-heart {
-          position: relative;
-          border: none;
-          background: transparent;
           margin: 2rem 2rem 0 0;
-          width: 3rem;
-          height: 2.5rem
+          @include button-heart-content;
         }
-
-        @include heart-icon;
       }
 
       &-label {
