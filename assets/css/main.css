@@ -267,7 +267,8 @@ h5 {
         border: none;
         background: transparent;
         margin: 2rem 2rem 0 0;
-        width: 3rem; }
+        width: 3rem;
+        height: 2.5rem; }
       .restaurants-section-card-figure-details .button-link-heart i {
         position: absolute;
         top: 0;
