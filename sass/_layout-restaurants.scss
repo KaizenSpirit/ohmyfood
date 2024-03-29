@@ -161,6 +161,7 @@ picture {
         position: relative;
         background-image: url('../images/restaurants/encoche.jpg');
         background-position: 132%;
+        background-size: 6.1rem 6.9rem;
         background-repeat: no-repeat;
 
         &::after {
@@ -176,7 +177,7 @@ picture {
 
 
         &:hover {
-          padding-right: 7rem;
+          padding-right: 7.5rem;
           background-position: right;
 
           &::after {
