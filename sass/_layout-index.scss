@@ -5,7 +5,7 @@
   box-shadow: 0 .4rem .4rem 0 #00000026;
 }
 
-.booking-menu-section {
+.booking-menu__section {
   &-form {
     background-color: #EAEAEA;
     color: #353535;
@@ -89,7 +89,7 @@
   }
 }
 
-.menu-creation-process-section {
+.menu-creation-process__section {
   height: 44rem;
 
   &-title {
@@ -97,7 +97,7 @@
     margin: 4.5rem 0 0 2rem;
   }
 
-  .menu-creation-process-options {
+  &-options {
     margin-top: 3rem;
     display: flex;
     flex-direction: column;
@@ -151,7 +151,7 @@
 }
 
 
-.restaurants-section {
+.restaurants__section {
   background-color: $grey-background;
   display: flex;
   flex-direction: column;
@@ -302,7 +302,7 @@
     }
   }
 
-  .booking-menu-section {
+  .booking-menu__section {
     aside {
       height: 25rem;
 
@@ -324,7 +324,7 @@
     }
   }
 
-  .menu-creation-process-section {
+  .menu-creation-process__section {
     height: 22.8rem;
 
     &-title {
@@ -332,7 +332,7 @@
       margin: 0;
     }
 
-    .menu-creation-process-options {
+    &-options {
       margin-top: 4rem;
       flex-direction: row;
       justify-content: space-around;
@@ -354,7 +354,7 @@
     }
   }
 
-  .restaurants-section {
+  .restaurants__section {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(4, 1fr);
