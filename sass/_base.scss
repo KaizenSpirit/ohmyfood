@@ -47,14 +47,17 @@ html {
   height: 2.5rem;
   font-size: 2.5rem;
   color: black;
+  font-weight: 200;
+  opacity: .7;
 
   .fa-regular:hover {
     background: $btn-gradient;
     color: transparent;
     background-clip: text;
     font-weight: 900;
+    opacity: 1;
     cursor: pointer;
-    font-size: 3rem;
+    transition: 2s;
   }
 
   .fa-regular.fa-heart:active {

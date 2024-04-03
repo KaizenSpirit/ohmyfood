@@ -269,14 +269,17 @@ h5 {
         width: 3rem;
         height: 2.5rem;
         font-size: 2.5rem;
-        color: black; }
+        color: black;
+        font-weight: 200;
+        opacity: .7; }
         .restaurants__section-card-figure-details .button-link-heart .fa-regular:hover {
           background: linear-gradient(193deg, #9356DC -11.44%, #FF79DA 123.93%);
           color: transparent;
           background-clip: text;
           font-weight: 900;
+          opacity: 1;
           cursor: pointer;
-          font-size: 3rem; }
+          transition: 2s; }
         .restaurants__section-card-figure-details .button-link-heart .fa-regular.fa-heart:active {
           font-size: 2.5rem;
           top: 0;
@@ -507,14 +510,17 @@ picture img {
       width: 3rem;
       height: 2.5rem;
       font-size: 2.5rem;
-      color: black; }
+      color: black;
+      font-weight: 200;
+      opacity: .7; }
       .menu__creation-titles .button-link-heart .fa-regular:hover {
         background: linear-gradient(193deg, #9356DC -11.44%, #FF79DA 123.93%);
         color: transparent;
         background-clip: text;
         font-weight: 900;
+        opacity: 1;
         cursor: pointer;
-        font-size: 3rem; }
+        transition: 2s; }
       .menu__creation-titles .button-link-heart .fa-regular.fa-heart:active {
         font-size: 2.5rem;
         top: 0;
