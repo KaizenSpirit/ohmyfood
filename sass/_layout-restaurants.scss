@@ -108,33 +108,40 @@ picture {
       display: block;
 
 
+.nb1{
+  animation-name: item-anim;
+  animation-duration: 4s;
+  animation-delay: 1.1s;
+}
+
       .li-3 {
         animation-name: item-anim;
-        animation-duration: 4s;
-        animation-delay: 1.3s;
+        animation-duration: 6.5s;
+        animation-delay: 1.1s;
       }
 
       .li-2 {
         animation-name: item-anim;
-        animation-duration: 3s;
+        animation-duration: 4.5s;
         animation-delay: 1.2s;
       }
 
       .li-1 {
         animation-name: item-anim;
-        animation-duration: 2s;
-        animation-delay: 1.1s;
+        animation-duration: 2.5s;
+        animation-delay: 1.3s;
       }
 
 
       @keyframes item-anim {
         0% {
-          transform: translateX(100rem);
+          opacity: 0;
+          transform: scale(0);
         }
 
         100% {
-          visibility: visible;
-          transform: translate(0);
+          opacity: 1;
+          transform: scale(1);
         }
       }
 
