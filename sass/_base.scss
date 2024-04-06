@@ -139,3 +139,19 @@ h5 {
   border-radius: 50%;
   animation: spin .5s linear infinite;
 }
+
+
+
+@mixin items-animations{
+  0% {
+    transform: translateX(100rem);
+  }
+
+  80% {
+    transform: translateX(-10rem);
+  }
+
+  100% {
+    transform: translate(0);
+  }
+}

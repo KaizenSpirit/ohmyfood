@@ -551,29 +551,31 @@ picture img {
       width: 92%;
       list-style: none;
       display: block; }
-      .menu__creation-items-list .impair {
-        animation-name: impair-anim;
-        animation-duration: 3s;
-        animation-delay: 1s; }
-      .menu__creation-items-list .pair {
-        animation-name: pair-anim;
-        animation-duration: 3s;
-        animation-delay: 1s; }
+      .menu__creation-items-list .li-4 {
+        animation-name: item-anim;
+        animation-duration: 1.5s;
+        animation-delay: 1.2s; }
+      .menu__creation-items-list .li-3 {
+        animation-name: item-anim;
+        animation-duration: 2.5s;
+        animation-delay: 1.3s; }
+      .menu__creation-items-list .li-2 {
+        animation-name: item-anim;
+        animation-duration: 3.5s;
+        animation-delay: 1.4s; }
+      .menu__creation-items-list .li-1 {
+        animation-name: item-anim;
+        animation-duration: 4.5s;
+        animation-delay: 1.5s; }
 
-@keyframes impair-anim {
+@keyframes item-anim {
   0% {
     transform: translateX(100rem); }
   80% {
-    transform: translateX(-10rem); }
+    visibility: visible;
+    transform: translateX(-5rem); }
   100% {
-    transform: translate(0); } }
-
-@keyframes pair-anim {
-  0% {
-    transform: translateX(-100rem); }
-  80% {
-    transform: translateX(10rem); }
-  100% {
+    visibility: visible;
     transform: translate(0); } }
       .menu__creation-items-list-item {
         margin-top: .5rem;
