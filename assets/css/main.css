@@ -58,8 +58,7 @@ h5 {
   0% {
     opacity: 1; }
   99% {
-    opacity: 1;
-    z-index: 1000; }
+    opacity: 1; }
   100% {
     opacity: 0;
     z-index: -1; } }
@@ -350,12 +349,10 @@ h5 {
         text-decoration: none;
         font-weight: 200; }
 
-@media (min-width: 768px) {
+@media (min-width: 1024px) {
   body {
     margin: auto;
-    max-width: 144rem; } }
-
-@media (min-width: 1024px) {
+    max-width: 144rem; }
   .header {
     height: 9.6rem;
     font-size: 3.4rem; }
