@@ -208,6 +208,13 @@ h5 {
       font-size: 1.99rem;
       margin-left: -1.5rem;
       color: #7e7e7e; }
+    .menu-creation-process__section-options .cell .fa-solid {
+      margin-left: 1.43rem;
+      font-size: 2.2rem; }
+    .menu-creation-process__section-options .burger .fa-solid {
+      margin-left: 0; }
+    .menu-creation-process__section-options .house .fa-solid {
+      margin-left: .5rem; }
     .menu-creation-process__section-options-items .purple-icon {
       color: #9356DC; }
     .menu-creation-process__section-options-title {

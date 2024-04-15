@@ -101,7 +101,7 @@ html {
   .fa-regular:hover {
     background: $btn-gradient;
     color: transparent;
-    background-clip: text;
+    background-clip: text; ////////////////!!!
     font-weight: 900;
     opacity: 1;
     cursor: pointer;
